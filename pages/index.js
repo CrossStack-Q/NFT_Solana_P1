@@ -9,7 +9,7 @@ const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const Home = () => {
 
     const wallet = useWallet();
-    console.log(wallet.publicKey._bn.words)
+    // console.log(wallet.publicKey._bn.words)
 
 
     //buttob wala
