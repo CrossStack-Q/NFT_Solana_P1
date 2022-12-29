@@ -10,7 +10,7 @@ const Home = () => {
 
     const wallet = useWallet();
     // console.log(wallet.publicKey._bn.words)
-    // More to 
+    // More t
 
 
     //buttob wala
