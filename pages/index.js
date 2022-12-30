@@ -44,3 +44,7 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+// Initail Setup hain
