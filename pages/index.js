@@ -2,6 +2,9 @@ import React from "react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";
 
+
+import CandyMachine from "../components/CandyMachine"
+
 // Constants
 const TWITTER_HANDLE = "_buildspace";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
@@ -32,10 +35,10 @@ const Home = () => {
         <div className="App">
             <div className="container">
                 <div className="header-container">
-                    <p className="header">🍭 Candy Drop</p>
-                    <p className="sub-text">NFT drop machine with fair mint</p>
+                    <p className="header">🚀 Avatar Drop 🚀</p>
+                    <p className="sub-text">Get an avatar as your nft</p>
                     
-                    {wallet.publicKey ? "Hello" : renderNotConnectedContainer()}
+                    {wallet.publicKey ? <CandyMachine walletAddress={wallet} /> : renderNotConnectedContainer()}
                     
                 </div>
             </div>
