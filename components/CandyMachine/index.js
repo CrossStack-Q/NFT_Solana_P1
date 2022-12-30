@@ -110,6 +110,10 @@ const CandyMachine = ({ walletAddress }) => {
     const remainingAccounts = [];
     const signers = [mint];
     const cleanupInstructions = [];
+
+
+
+
     const instructions = [
       web3.SystemProgram.createAccount({
         fromPubkey: walletAddress.publicKey,
@@ -404,16 +408,24 @@ const CandyMachine = ({ walletAddress }) => {
   
 
   return (
-    candyMachine && (
+    candyMachine && candyMachine.state && (
       <div className="machine-container">
-        <p>{`Drop Date: ${candyMachine.state.goLiveDateTimeString}`}</p>
+        
         <p>{`Items Minted: ${candyMachine.state.itemsRedeemed} / ${candyMachine.state.itemsAvailable}`}</p>
-        <button className="cta-button mint-button" onClick={null}>
-            Mint NFT
-        </button>
+          {/* Check to see if these properties are equal! */}
+          {candyMachine.state.itemsRedeemed === candyMachine.state.itemsAvailable ? (
+            <p className="sub-text">Sold Out 🙊</p>
+          ) : (
+            <button
+              className="cta-button mint-button"
+              onClick={mintToken}
+            >
+              Mint NFT
+            </button>
+          )}
       </div>
+    ) 
     )
-  );
 };
 
 export default CandyMachine;

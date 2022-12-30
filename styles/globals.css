@@ -74,3 +74,15 @@ code {
 .timer-container .timer-value {
     font-size: 18px;
 }
+
+
+
+
+.timer-container .timer-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.timer-container .timer-value {
+    font-size: 18px;
+}
