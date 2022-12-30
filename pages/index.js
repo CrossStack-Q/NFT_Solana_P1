@@ -15,7 +15,7 @@ const Home = () => {
 
     //buttob wala
 
-    // Actions
+    // Button Wala Function
     const renderNotConnectedContainer = () => (
         <div>
             <img src="https://media.giphy.com/media/eSwGh3YK54JKU/giphy.gif" alt="emoji" />
@@ -26,7 +26,7 @@ const Home = () => {
             </div>
         </div>
     );
-
+                                 
 
     return (
         <div className="App">
