@@ -1,0 +1,29 @@
+{
+  "price": 0.01,
+  "number": 3,
+  "gatekeeper": null,
+  "creators": [
+    {
+      "address": "BdYfMUZ9Ky7FNVqwMc2eVkvD7wZSzutEJqogrzhxsgQ6",
+      "share": 100
+    }
+  ],
+  "solTreasuryAccount": "BdYfMUZ9Ky7FNVqwMc2eVkvD7wZSzutEJqogrzhxsgQ6",
+  "splTokenAccount": null,
+  "splToken": null,
+  "goLiveDate": "11 Aug 2022 18:19:16 +0000",
+  "endSettings": null,
+  "whitelistMintSettings": null,
+  "hiddenSettings": null,
+  "freezeTime": null,
+  "uploadMethod": "nft_storage",
+  "retainAuthority": true,
+  "isMutable": true,
+  "symbol": "#",
+  "sellerFeeBasisPoints": 1,
+  "awsConfig": null,
+  "nftStorageAuthToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEQ1Yjk3MmMwMTMzNkJhOWM1MTZEMjA4ODk5NDI2ODdERGYxQ0ViMzgiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY3MjQwNjE0NzE4NSwibmFtZSI6Im1ldGFwbGV4In0.FsJG2zEWGosmxq2EA0viqMMYEmHOSk0l6TDX0f6EUhI",
+  "shdwStorageAccount": null,
+  "pinataConfig": null
+}
+
