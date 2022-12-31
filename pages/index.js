@@ -30,7 +30,7 @@ const Home = () => {
         </div>
     );
 
-    // msj
+    // ms
                                  
 
     return (
