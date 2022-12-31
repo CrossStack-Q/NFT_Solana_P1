@@ -30,7 +30,7 @@ const Home = () => {
         </div>
     );
 
-    // ms
+
                                  
 
     return (
