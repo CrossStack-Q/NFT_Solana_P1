@@ -52,7 +52,7 @@ const CountdownTimer = ({ dropDate }) => {
       return <CountdownTimer dropDate={dropDate} />;
     }
 
-    //now
+    //no
 
     // Else let's just return the current drop date
     return <p>{`Drop Date: ${candyMachine.state.goLiveDateTimeString}`}</p>;
